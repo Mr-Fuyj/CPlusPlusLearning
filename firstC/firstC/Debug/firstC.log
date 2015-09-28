@@ -1,0 +1,48 @@
+﻿生成启动时间为 2015/7/3 23:56:34。
+     1>项目“F:\c艹\firstC\firstC\firstC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyLink2.cpp MyOut.cpp OutToFile.cpp OutTOHTML.cpp OutToScreen.cpp start.cpp
+         start.cpp
+     1>f:\c艹\firstc\firstc\outtofile.cpp(5): warning C4812: 过时的声明样式: 请改用“OutToFile<TemplateClass>::OutToFile”
+     1>f:\c艹\firstc\firstc\outtofile.cpp(10): warning C4812: 过时的声明样式: 请改用“OutToFile<TemplateClass>::~OutToFile”
+     1>f:\c艹\firstc\firstc\mylink2.cpp(154): warning C4244: “+=”: 从“float”转换到“__int64”，可能丢失数据
+                 f:\c艹\firstc\firstc\mylink2.cpp(142): 编译类 模板 成员函数“void CMyLinkList<CStudent>::GetAverageStore(void)”时
+                 f:\c艹\firstc\firstc\start.cpp(57): 参见对正在编译的函数 模板 实例化“void CMyLinkList<CStudent>::GetAverageStore(void)”的引用
+                 f:\c艹\firstc\firstc\start.cpp(19): 参见对正在编译的类 模板 实例化“CMyLinkList<CStudent>”的引用
+     1>f:\c艹\firstc\firstc\outtofile.cpp(5): warning C4812: 过时的声明样式: 请改用“OutToFile<CStudent>::OutToFile”
+                 f:\c艹\firstc\firstc\outtofile.cpp(5): 编译类 模板 成员函数“OutToFile<CStudent>::OutToFile(TemplateClass *,char *)”时
+                 with
+                 [
+                     TemplateClass=CStudent
+                 ]
+                 f:\c艹\firstc\firstc\start.cpp(88): 参见对正在编译的函数 模板 实例化“OutToFile<CStudent>::OutToFile(TemplateClass *,char *)”的引用
+                 with
+                 [
+                     TemplateClass=CStudent
+                 ]
+                 f:\c艹\firstc\firstc\start.cpp(88): 参见对正在编译的类 模板 实例化“OutToFile<CStudent>”的引用
+         OutToScreen.cpp
+         OutTOHTML.cpp
+         OutToFile.cpp
+     1>f:\c艹\firstc\firstc\outtofile.cpp(5): warning C4812: 过时的声明样式: 请改用“OutToFile<TemplateClass>::OutToFile”
+     1>f:\c艹\firstc\firstc\outtofile.cpp(10): warning C4812: 过时的声明样式: 请改用“OutToFile<TemplateClass>::~OutToFile”
+         MyOut.cpp
+         MyLink2.cpp
+         正在生成代码...
+     1>f:\c艹\firstc\firstc\mylink2.cpp(78): warning C4715: “CMyLinkList<CStudent>::BuildLinkFromFile”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\firstC.res" firstC.rc 
+       Link:
+         F:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\c艹\firstC\firstC\Debug\firstC.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\c艹\firstC\firstC\Debug\firstC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\c艹\firstC\firstC\Debug\firstC.lib" /MACHINE:X86 Debug\firstC.res
+         Debug\MyLink2.obj
+         Debug\MyOut.obj
+         Debug\OutToFile.obj
+         Debug\OutTOHTML.obj
+         Debug\OutToScreen.obj
+         Debug\start.obj
+         firstC.vcxproj -> F:\c艹\firstC\firstC\Debug\firstC.exe
+     1>已完成生成项目“F:\c艹\firstC\firstC\firstC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.39

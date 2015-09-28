@@ -1,0 +1,10 @@
+int eg6_1();
+void eg6_2();
+int eg6_5();
+int eg6_7_1();
+int eg6_7_2();
+int eg6_7_3();
+void eg6_8();
+void eg6_9();
+void eg6_10();
+void eg6_11();
